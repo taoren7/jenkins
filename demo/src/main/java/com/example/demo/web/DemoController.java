@@ -15,7 +15,7 @@ public class DemoController {
 
     @GetMapping("/get")
     public String getParam (String param) {
-        return param;
+        return "resp:"+param;
     }
 
 }
